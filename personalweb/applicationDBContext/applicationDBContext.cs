@@ -1,6 +1,6 @@
 ﻿namespace personalweb.applicationDBContext
 {
-    public class applicationDBContext
+    public class applicationDBContext: DBContext
     {
     }
 }
