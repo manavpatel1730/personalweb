@@ -7,18 +7,26 @@ import { MasterpageModule } from './masterpages/masterpage.module';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
+import { HomeComponent } from './homePage/home/home.component';
+import { FullLayoutComponent } from './full-layout/full-layout.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
- 
+    HomeComponent,
+    FullLayoutComponent
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MasterpageModule
+    MasterpageModule,
+    NgbModule,
+    // HomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
