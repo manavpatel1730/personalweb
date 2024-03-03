@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 active=1;
+// active=1;
 
   constructor() { }
 
