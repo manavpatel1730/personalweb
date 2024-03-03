@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { MasterpageModule } from './masterpages/masterpage.module';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
-
 import { HomeComponent } from './homePage/home/home.component';
 import { FullLayoutComponent } from './full-layout/full-layout.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -18,7 +17,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    FullLayoutComponent
+    FullLayoutComponent,
+    NavbarComponent
    
   ],
   imports: [

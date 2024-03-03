@@ -1,0 +1,323 @@
+/* footer {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  footer::after {
+    position: absolute;
+    content: "";
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    top: 0;
+    z-index: -1;
+    background-image: linear-gradient(-134deg, #C86DD7 0%, #3023AE 100%) !important;
+  }
+  footer .shape-style span {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px 130px 100px 315px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  footer .shape-style span:nth-child(1) {
+    bottom: auto;
+    left: -3%;
+    top: -20px;
+    width: 150px;
+    height: 150px;
+  }
+  footer .shape-style span:nth-child(2) {
+    width: 50px;
+    height: 50px;
+    top: 15%;
+    right: 10%;
+  }
+  footer .shape-style span:nth-child(3) {
+    width: 75px;
+    height: 75px;
+    top: 320px;
+    right: 7%;
+    background: rgba(255, 255, 255, 0.15);
+  }
+  footer .shape-style span:nth-child(4) {
+    width: 100px;
+    height: 100px;
+    top: 38%;
+    right: auto;
+    left: 1%;
+    background: rgba(255, 255, 255, 0.05);
+  }
+  footer .shape-style span:nth-child(5) {
+    width: 50px;
+    height: 50px;
+    right: 40%;
+    bottom: 45%;
+    background: rgba(255, 255, 255, 0.04);
+  }
+  footer .shape-style span:nth-child(6) {
+    width: 100px;
+    height: 100px;
+    right: 6%;
+    bottom: 100px;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  footer .shape-style span:nth-child(7) {
+    width: 50px;
+    height: 50px;
+    right: 5%;
+    bottom: 12%;
+  }
+  footer .shape-style span:nth-child(8) {
+    width: 100px;
+    height: 100px;
+    right: auto;
+    bottom: 11%;
+    left: 15%;
+    background: rgba(255, 255, 255, 0.05);
+  }
+  footer .wave-img {
+    transform: rotateX(0deg);
+    height:100px;
+  }
+  footer .footer-top h2 {
+    position: relative;
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.3em;
+    margin-bottom: 30px;
+  }
+  footer .footer-top h2 span {
+    font-weight: 300;
+  }
+  footer .footer-top .download-app-button {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    transition: all 0.3s ease-in;
+  }
+  footer .footer-top .download-app-button .download-btn {
+    border: 1px solid #fff;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    float: left;
+    padding: 5px 20px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  footer .footer-top .download-app-button .download-btn:hover, footer .footer-top .download-app-button .download-btn.active {
+    background-color: #fff;
+  }
+  footer .footer-top .download-app-button .download-btn:hover p, footer .footer-top .download-app-button .download-btn.active p {
+    color: #281483;
+  }
+  footer .footer-top .download-app-button .download-btn:hover i, footer .footer-top .download-app-button .download-btn.active i {
+    background: linear-gradient(to bottom, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  footer .footer-top .download-app-button .download-btn i {
+    font-size: 28px;
+    line-height: 28px;
+    margin-right: 10px;
+    color: #fff;
+  }
+  footer .footer-top .download-app-button .download-btn p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+  footer .footer-top .download-app-button .download-btn p small {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+  }
+  footer .footer-top .inner-column h2 {
+    position: relative;
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.3em;
+    margin-bottom: 30px;
+    text-align: right;
+  }
+  footer .footer-top .inner-column h2 span {
+    font-weight: 300;
+  }
+  footer .footer-top .inner-column .subscribe-form form {
+    position: relative;
+  }
+  footer .footer-top .inner-column .subscribe-form form input {
+    display: block;
+    width: 100%;
+    height: 60px;
+    font-size: 14px;
+    padding: 14px 40px;
+    border-radius: 50px;
+    background: #ffffff;
+    font-family: "Poppins", sans-serif;
+    outline: 0;
+    border: none;
+  }
+  footer .footer-top .inner-column .subscribe-form form button {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    outline: 0;
+    height: 56px;
+    color: #00004f;
+    font-weight: 600;
+    border: none;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    background: #ffcc00;
+    border-radius: 50px;
+    padding: 15px 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  footer .widgets-section {
+    padding-top: 60px;
+    padding-bottom: 25px;
+  }
+  footer .widgets-section .footer-widget h2 {
+    position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-bottom: 22px;
+    letter-spacing: 1px;
+  }
+  footer .widgets-section .footer-widget .logo_footer img {
+    margin-bottom:20px;
+    opacity:1;
+    height:70px;
+  
+  }
+  footer .widgets-section .footer-widget p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+  }
+  footer .widgets-section .footer-widget .footer-info {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  footer .widgets-section .footer-widget .footer-info li {
+    position: relative;
+    padding-left: 25px;
+    font-size: 15px;
+    margin-bottom: 12px;
+    line-height: 1.8em;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.95);
+  }
+  footer .widgets-section .footer-widget .footer-info li i {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 7px;
+    color: #fdd415;
+    font-size: 14px;
+  }
+  footer .widgets-section .footer-widget .list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  footer .widgets-section .footer-widget .list li a {
+    position: relative;
+    font-size: 15px;
+    padding-left: 25px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  footer .widgets-section .footer-widget .list li a:hover {
+    color: #ffcc00;
+  }
+  footer .widgets-section .footer-widget .list li a::before {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    line-height: 1em;
+    font-family: "FontAwesome";
+  }
+  footer .widgets-section .footer-widget.twitter-widget .tweet-block {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  footer .widgets-section .footer-widget.twitter-widget .tweet-block p {
+    position: relative;
+    font-size: 14px;
+    line-height: 1.8em;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.95);
+  }
+  footer .widgets-section .footer-widget.twitter-widget .tweet-block p i {
+    color: #0397ff;
+    font-size: 20px;
+    margin-right: 8px;
+  }
+  footer .widgets-section .footer-widget.twitter-widget .tweet-block .author-name {
+    position: relative;
+    color: #ffcc00;
+    font-size: 14px;
+    font-style: italic;
+  }
+  footer .footer-bottom .inner-content {
+    padding: 22px 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+  }
+  footer .footer-bottom .inner-content p {
+    position: relative;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  footer .footer-bottom .inner-content p span {
+    color: #ffcc00;
+  }
+  footer .footer-bottom .inner-content .social-icon {
+    list-style-type: none;
+    text-align: right;
+  }
+  footer .footer-bottom .inner-content .social-icon li {
+    position: relative;
+    margin-left: 18px;
+    display: inline-block;
+  }
+  footer .footer-bottom .inner-content .social-icon li a {
+    position: relative;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+  }
+  footer .footer-bottom .inner-content .social-icon li a:hover {
+    color: #ffcc00;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    footer .footer-top h2 {
+      text-align: left !important;
+      font-size: 35px !important;
+    }
+    footer .footer-top .download-app-button {
+      margin-bottom: 1.5rem;
+    }
+    footer .footer-top .inner-column h2 {
+      text-align: left !important;
+      font-size: 35px !important;
+    }
+  }
+   */
