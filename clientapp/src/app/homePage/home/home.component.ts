@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-hii=false;
-hello(){
-  // alert("hello");
-  this.hii=true;
-}
+// hii=false;
+// hello(){
+//   // alert("hello");
+//   this.hii=true;
+// }
 
 }
