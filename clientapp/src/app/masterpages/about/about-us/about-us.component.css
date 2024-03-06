@@ -93,7 +93,7 @@ p {
 
 .aboutPhoto{
     /* background: url(mountain.jpg); */
-    /* background-image: url("aboutPhoto.jpg"); */
+    background-image: url("aboutPhoto.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
