@@ -48,11 +48,8 @@ namespace personalweb.Controllers
                         entity.Country = vm.Country;
                         entity.City = vm.City;
                         entity.Phone = vm.Phone;
-
-
-
                         db.ContactUs.Update(entity);
-                        _ = await db.SaveChangesAsync();
+                      await db.SaveChangesAsync();
                         return Ok();
                     }
 
@@ -71,7 +68,7 @@ namespace personalweb.Controllers
                         entity.Phone = vm.Phone; ;
 
                         db.ContactUs.Add(entity);
-                        _ = await db.SaveChangesAsync();
+                        await db.SaveChangesAsync();
                         return Ok(entity.Id);
                     }
                 }
