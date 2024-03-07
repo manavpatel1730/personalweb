@@ -4,11 +4,14 @@ using personalweb.Models;
 
 namespace personalweb.applicationDBContext
 {
-    public class applicationDBContext : DbContext
+    public class ApplicationDBContext : DbContext
     {
-        protected applicationDBContext(DbContextOptions<applicationDBContext> options): base (options)
+        public ApplicationDBContext()
         {
-          
+        }
+        public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options)
+           : base(options)
+        {
         }
         public virtual DbSet<ContactU> ContactUs { get; set; } 
     }
