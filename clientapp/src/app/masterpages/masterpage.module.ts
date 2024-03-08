@@ -10,6 +10,7 @@ import { TeamComponent } from './team/team/team.component';
 
 @NgModule({
   declarations: [
+    
 
     AboutUsComponent,
     ContactUsComponent,
@@ -20,4 +21,13 @@ import { TeamComponent } from './team/team/team.component';
     MasterpagerRoutingModule
     ]
 })
-export class MasterpageModule { }
+export class MasterpageModule {
+
+  manav:string= "";
+
+
+  
+
+ }
+// sum of two numbers
+
